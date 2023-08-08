@@ -1,1 +1,108 @@
-/* Write your CSS here! */
+body {
+    display: block;
+	width: 100%;
+	max-width: 1024px;
+	margin: 8px;
+	background-color: #87aee0;
+	font-size: 67.5%;
+}
+
+header,
+main,
+footer {
+	background-color: #f7eef5;
+	font-size: 1.4em;
+}
+
+header {
+	padding: 1.875em 0;
+}
+
+#mainHeading {
+    color: red;
+    font-size: 4em;
+}
+
+header h1 {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	margin: 1;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+main h2 {
+	padding: 1em 0 0 3em;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.funParagraph {
+    color: green;
+}
+
+section {
+	margin: 1.875em 0;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 0.75em;
+}
+
+p {
+	padding-top: 0em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0em;
+    font-size: 1.1em;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+footer {
+	text-align: center;
+	padding: 3em;
+}
+
+footer p {
+	display: inline-block;
+}
+
+#name {
+    background-color: #87aee0;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+    margin-bottom: 100px;
+}
